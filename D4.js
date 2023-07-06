@@ -45,12 +45,10 @@ console.log(crazySum());
 console.log("ESERCIZIO 3");
 const crazyDiff = function (n1) {
   if (n1 > 19) {
-    let total3 = n1 + 19;
-    let diffAss = (total3 - n1) * 3;
+    let diffAss = Math.abs(n1 - 19) * 3;
     return diffAss;
   } else {
-    let total3 = n1 + 19;
-    let diffAss = total3 - n1;
+    let diffAss = Math.abs(total3 - n1);
     return diffAss;
   }
 };
